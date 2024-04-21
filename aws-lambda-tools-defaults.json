@@ -1,0 +1,21 @@
+
+{
+    "region" : "us-west-2",
+    "profile" : "sandbox-s-1-dev",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "function-name" : "ApiGatewayAndLambdaConfig-Lambda",
+    "function-description" : "ApiGatewayAndLambdaConfigPOC-Desc",
+    "package-type"         : "Zip",
+    "function-handler"     : "ApiGatewayAndLambdaConfigPOC",
+    "function-memory-size" : 256,
+    "function-role"        : "arn:aws:iam::788363240106:role/rdridev-lambda-role2",
+    "function-timeout"     : 10,
+    "function-runtime"     : "dotnet6",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "\"ASPNETCORE_ENVIRONMENT\"=\"Development\"",
+    "image-tag"                : ""
+}
